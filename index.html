@@ -80,9 +80,14 @@
   <p class="lede">A game about one thing: stopping a timer at exactly the right
   moment. No counting, no tricks. Just feel.</p>
 
-  <nav class="links">
-    <a href="privacy.html">Privacy Policy</a>
-    <a href="support.html">Support</a>
+  <nav class="links" id="en-links">
+    <a href="en/privacy.html">Privacy Policy</a>
+    <a href="en/support.html">Support</a>
+  </nav>
+
+  <nav class="links" id="tr-links">
+    <a href="tr/privacy.html">Gizlilik Politikası</a>
+    <a href="tr/support.html">Destek</a>
   </nav>
 
   <footer>
@@ -91,5 +96,12 @@
   </footer>
 
 </div>
+<script>
+  // Progressive enhancement only: the page is complete and usable without this.
+  if ((navigator.language || '').toLowerCase().startsWith('tr')) {
+    var tr = document.getElementById('tr-links');
+    tr.parentNode.insertBefore(tr, document.getElementById('en-links'));
+  }
+</script>
 </body>
 </html>
