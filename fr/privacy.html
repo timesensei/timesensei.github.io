@@ -110,11 +110,8 @@
   <h3>Jeton de notification</h3>
   <p>Si vous activez les notifications, iOS émet un jeton qui nous permet de vous envoyer un message push. Il identifie l'installation, pas vous. Si les notifications sont désactivées, aucun jeton n'est stocké.</p>
 
-  <h3>Si vous choisissez de vous connecter avec Apple</h3>
-  <p>La connexion est facultative et n'existe que pour que votre progression survive au changement ou à la réinitialisation de votre appareil. Si vous l'utilisez, Apple nous envoie un identifiant de compte et, selon le choix que vous faites dans la boîte de dialogue d'Apple, soit votre adresse e-mail, soit une adresse relais privée. Vous pouvez jouer au jeu entier sans jamais faire cela.</p>
-
-  <h3>Parrainage</h3>
-  <p>Si vous invitez un ami et qu'il accepte, nous stockons le lien entre les deux comptes pour que les deux côtés reçoivent la récompense.</p>
+  <h3>Si tu choisis de te connecter avec Apple ou Google</h3>
+  <p>La connexion est facultative et n'existe que pour que ta progression survive au changement ou à la réinitialisation de ton appareil. Si tu l'utilises, le fournisseur choisi nous envoie un identifiant de compte et une adresse e-mail — avec Apple, selon le choix fait dans sa propre boîte de dialogue, ce peut être une adresse relais privée. Tu peux jouer au jeu entier sans jamais faire cela.</p>
 
   <h2>Ce qui reste uniquement sur votre appareil</h2>
   <p>Ce qui suit ne quitte jamais votre téléphone. Cela vit dans le stockage local de l'application et est supprimé quand vous supprimez l'application :</p>
@@ -135,8 +132,9 @@
         <tr><th>Service</th><th>Ce dont il s'occupe</th><th>Où</th></tr>
       </thead>
       <tbody>
-        <tr><td>Supabase</td><td>Compte, scores, parrainages, jeton de notification</td><td>Base de données dans le cloud</td></tr>
+        <tr><td>Supabase</td><td>Compte, scores, jeton de notification</td><td>Base de données dans le cloud</td></tr>
         <tr><td>Sentry</td><td>Rapports de plantage et d'erreur</td><td>Cloud, région UE</td></tr>
+        <tr><td>Google</td><td>Connexion avec Google</td><td>Services propres de Google</td></tr>
         <tr><td>Apple</td><td>Connexion avec Apple, livraison des push, statistiques de l'App Store</td><td>Services propres d'Apple</td></tr>
       </tbody>
     </table>

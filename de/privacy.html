@@ -110,11 +110,8 @@
   <h3>Benachrichtigungs-Token</h3>
   <p>Wenn du Benachrichtigungen einschaltest, stellt iOS ein Token aus, mit dem wir dir eine Push-Nachricht senden können. Es identifiziert die Installation, nicht dich. Sind Benachrichtigungen aus, wird kein Token gespeichert.</p>
 
-  <h3>Wenn du dich mit Apple anmeldest</h3>
-  <p>Die Anmeldung ist freiwillig und existiert nur, damit dein Fortschritt einen Gerätewechsel oder ein Zurücksetzen übersteht. Wenn du sie nutzt, sendet Apple uns eine Kontokennung und, je nach deiner Wahl in Apples eigenem Dialog, entweder deine E-Mail-Adresse oder eine private Weiterleitungsadresse. Du kannst das ganze Spiel spielen, ohne das je zu tun.</p>
-
-  <h3>Empfehlungen</h3>
-  <p>Wenn du eine Freundin oder einen Freund einlädst und sie oder er annimmt, speichern wir die Verbindung zwischen den beiden Konten, damit beide Seiten die Belohnung erhalten.</p>
+  <h3>Wenn du dich mit Apple oder Google anmeldest</h3>
+  <p>Die Anmeldung ist freiwillig und existiert nur, damit dein Fortschritt einen Gerätewechsel oder ein Zurücksetzen übersteht. Wenn du sie nutzt, sendet der gewählte Anbieter uns eine Kontokennung und eine E-Mail-Adresse — bei Apple je nach deiner Wahl in dessen eigenem Dialog auch eine private Weiterleitungsadresse. Du kannst das ganze Spiel spielen, ohne das je zu tun.</p>
 
   <h2>Was nur auf deinem Gerät bleibt</h2>
   <p>Das Folgende verlässt dein Telefon nie. Es liegt im lokalen Speicher der App und wird gelöscht, wenn du die App löschst:</p>
@@ -135,8 +132,9 @@
         <tr><th>Dienst</th><th>Wofür zuständig</th><th>Wo</th></tr>
       </thead>
       <tbody>
-        <tr><td>Supabase</td><td>Konto, Punktzahlen, Empfehlungen, Benachrichtigungs-Token</td><td>Cloud-Datenbank</td></tr>
+        <tr><td>Supabase</td><td>Konto, Punktzahlen, Benachrichtigungs-Token</td><td>Cloud-Datenbank</td></tr>
         <tr><td>Sentry</td><td>Absturz- und Fehlerberichte</td><td>Cloud, EU-Region</td></tr>
+        <tr><td>Google</td><td>Mit Google anmelden</td><td>Googles eigene Dienste</td></tr>
         <tr><td>Apple</td><td>Mit Apple anmelden, Push-Zustellung, App-Store-Analysen</td><td>Apples eigene Dienste</td></tr>
       </tbody>
     </table>
