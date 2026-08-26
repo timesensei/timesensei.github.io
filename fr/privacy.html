@@ -76,7 +76,7 @@
 
   <p class="eyebrow">Time Sensei</p>
   <h1>Politique de confidentialité</h1>
-  <p class="updated">Dernière mise à jour : 12 août 2026 · <a href="../en/privacy.html">English</a> · <a href="../tr/privacy.html">Türkçe</a> · <a href="../es/privacy.html">Español</a> · <a href="../pt/privacy.html">Português</a> · <a href="../de/privacy.html">Deutsch</a> · <a href="../it/privacy.html">Italiano</a> · <a href="../ru/privacy.html">Русский</a> · <a href="../id/privacy.html">Bahasa Indonesia</a> · <a href="../ja/privacy.html">日本語</a> · <a href="../ko/privacy.html">한국어</a> · <a href="../zh/privacy.html">中文</a></p>
+  <p class="updated">Dernière mise à jour : 26 août 2026 · <a href="../en/privacy.html">English</a> · <a href="../tr/privacy.html">Türkçe</a> · <a href="../es/privacy.html">Español</a> · <a href="../pt/privacy.html">Português</a> · <a href="../de/privacy.html">Deutsch</a> · <a href="../it/privacy.html">Italiano</a> · <a href="../ru/privacy.html">Русский</a> · <a href="../id/privacy.html">Bahasa Indonesia</a> · <a href="../ja/privacy.html">日本語</a> · <a href="../ko/privacy.html">한국어</a> · <a href="../zh/privacy.html">中文</a></p>
 
   <p>Time Sensei est un jeu de précision temporelle. Cette politique décrit exactement ce que l'application collecte, pourquoi, et qui d'autre peut le voir. Elle est écrite d'après ce que l'application fait réellement : chaque point ci-dessous correspond à du code réel et à une vraie table de base de données.</p>
 
@@ -88,7 +88,7 @@
     <li>Vous pouvez jouer sans créer de compte ni nous donner votre nom ou votre e-mail.</li>
     <li>Nous collectons vos scores, pour que votre historique et les classements fonctionnent.</li>
     <li>Nous collectons les rapports de plantage, pour que l'application puisse être réparée quand elle casse.</li>
-    <li>Il n'y a <strong>aucune publicité</strong>, <strong>aucun suivi</strong> à travers d'autres applications ou sites, et vos données ne sont jamais vendues ni cédées à des courtiers en données ou à des annonceurs.</li>
+    <li>Time Sensei affiche des <strong>publicités</strong> via Google AdMob, et elles n'apparaissent jamais pendant une manche. Vos scores ne sont jamais vendus ni cédés à des courtiers en données.</li>
     </ul>
   </div>
 
@@ -135,13 +135,36 @@
         <tr><td>Sentry</td><td>Rapports de plantage et d'erreur</td><td>Cloud, région UE</td></tr>
         <tr><td>Google</td><td>Connexion avec Google</td><td>Services propres de Google</td></tr>
         <tr><td>Apple</td><td>Connexion avec Apple, livraison des push, statistiques de l'App Store</td><td>Services propres d'Apple</td></tr>
+        <tr><td>Google AdMob</td><td>Publicité et, si vous l'autorisez, un identifiant publicitaire</td><td>Services propres de Google</td></tr>
       </tbody>
     </table>
   </div>
-  <p>Chacun est utilisé strictement pour faire fonctionner l'application. Aucun ne reçoit vos données pour sa propre publicité ou son propre profilage.</p>
+  <p>Supabase, Sentry, Apple et la connexion Google sont utilisés strictement pour faire fonctionner l'application, et aucun ne reçoit vos données pour sa propre publicité ou son propre profilage. AdMob fait exception, puisque afficher des publicités est précisément sa raison d'être. Ce qu'il reçoit est décrit dans la section suivante.</p>
 
   <h2>Suivi et publicité</h2>
-  <p>Time Sensei ne contient <strong>aucune publicité</strong> ni <strong>aucun SDK tiers de suivi ou d'analyse</strong>. Rien dans l'application ne vous suit à travers les applications ou sites d'autres entreprises, et l'application ne demande pas la permission de le faire, parce qu'elle ne le fait pas.</p>
+  <p>Time Sensei affiche des publicités via Google AdMob.</p>
+  <p><strong>Les publicités n'apparaissent jamais pendant une manche.</strong>
+  Trois par jour au maximum, espacées d'au moins quatre minutes, et uniquement
+  quand vous quittez une partie de Survie terminée ou fermez votre récapitulatif
+  du jour. Aucune tant que vous n'avez pas joué vingt manches. Une publicité
+  supplémentaire est entièrement facultative et n'apparaît que si vous la
+  choisissez : après un jour manqué, la regarder protège votre série au lieu de
+  la perdre.</p>
+  <p>Pour diffuser une publicité, AdMob reçoit l'adresse IP de votre appareil,
+  des informations générales sur celui-ci, et un identifiant publicitaire si
+  vous en avez autorisé un. Sur iOS, l'application demande cette autorisation
+  via l'invite App Tracking Transparency d'Apple. Si vous refusez, vous voyez
+  toujours des publicités : elles sont simplement choisies sans cet identifiant
+  et sont moins pertinentes. Vous pouvez changer votre réponse à tout moment
+  dans les Réglages iOS, sous Confidentialité et sécurité, puis Suivi.</p>
+  <p>Dans l'Espace économique européen, au Royaume-Uni et en Suisse,
+  l'application affiche le formulaire de consentement de Google avant toute
+  demande de publicité, et votre choix détermine si les publicités sont
+  personnalisées.</p>
+  <p>Les publicités sont limitées aux contenus que Google classe comme tout
+  public. Rien d'autre dans l'application ne vous suit à travers les
+  applications ou sites d'autres entreprises, et vos scores, votre série et
+  votre compte ne sont jamais partagés avec des annonceurs.</p>
 
   <h2>Combien de temps les données sont conservées</h2>
   <p>Les scores et les enregistrements de compte sont conservés tant que votre compte existe. Les rapports de plantage sont conservés pendant une durée limitée par Sentry puis supprimés automatiquement.</p>

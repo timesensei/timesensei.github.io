@@ -77,7 +77,7 @@
 
   <p class="eyebrow">Time Sensei</p>
   <h1>隐私政策</h1>
-  <p class="updated">最后更新：2026年8月12日 · <a href="../en/privacy.html">English</a> · <a href="../tr/privacy.html">Türkçe</a> · <a href="../es/privacy.html">Español</a> · <a href="../pt/privacy.html">Português</a> · <a href="../fr/privacy.html">Français</a> · <a href="../de/privacy.html">Deutsch</a> · <a href="../it/privacy.html">Italiano</a> · <a href="../ru/privacy.html">Русский</a> · <a href="../id/privacy.html">Bahasa Indonesia</a> · <a href="../ja/privacy.html">日本語</a> · <a href="../ko/privacy.html">한국어</a></p>
+  <p class="updated">最后更新：2026年8月26日 · <a href="../en/privacy.html">English</a> · <a href="../tr/privacy.html">Türkçe</a> · <a href="../es/privacy.html">Español</a> · <a href="../pt/privacy.html">Português</a> · <a href="../fr/privacy.html">Français</a> · <a href="../de/privacy.html">Deutsch</a> · <a href="../it/privacy.html">Italiano</a> · <a href="../ru/privacy.html">Русский</a> · <a href="../id/privacy.html">Bahasa Indonesia</a> · <a href="../ja/privacy.html">日本語</a> · <a href="../ko/privacy.html">한국어</a></p>
 
   <p>Time Sensei 是一款关于时间精准度的游戏。本政策准确说明应用收集什么、为什么收集，以及还有谁能看到。它是按应用实际的行为写的：下面每一项都对应真实的代码和真实的数据库表。</p>
 
@@ -89,7 +89,7 @@
     <li>你可以不创建账号、不提供姓名或邮箱就开始游玩。</li>
     <li>我们收集你的成绩，以便历史记录和排行榜正常工作。</li>
     <li>我们收集崩溃报告，以便应用出问题时能够修复。</li>
-    <li>没有<strong>广告</strong>，没有跨其他应用或网站的<strong>追踪</strong>，你的数据也绝不会被出售或提供给数据经纪商与广告商。</li>
+    <li>Time Sensei 通过 Google AdMob 展示<strong>广告</strong>，且绝不在回合进行中出现。你的成绩绝不会被出售或提供给数据经纪商。</li>
     </ul>
   </div>
 
@@ -136,13 +136,26 @@
         <tr><td>Sentry</td><td>崩溃与错误报告</td><td>云端，欧盟区域</td></tr>
         <tr><td>Google</td><td>通过 Google 登录</td><td>Google 自有服务</td></tr>
         <tr><td>Apple</td><td>通过 Apple 登录、推送投递、App Store 分析</td><td>Apple 自有服务</td></tr>
+        <tr><td>Google AdMob</td><td>广告投放，以及在你允许时的广告标识符</td><td>Google 自有服务</td></tr>
       </tbody>
     </table>
   </div>
-  <p>每一项都仅用于运行本应用。没有任何一方获得你的数据用于其自身的广告或用户画像。</p>
+  <p>Supabase、Sentry、Apple 与 Google 登录都仅用于运行本应用，没有任何一方获得你的数据用于其自身的广告或用户画像。AdMob 是例外，因为展示广告正是它的用途。它接收哪些信息，见下一节。</p>
 
   <h2>追踪与广告</h2>
-  <p>Time Sensei <strong>不含任何广告</strong>，也<strong>不含任何第三方追踪或分析 SDK</strong>。应用中没有任何东西会跨其他公司的应用或网站追踪你，应用也不会为此请求权限，因为它根本不做这件事。</p>
+  <p>Time Sensei 通过 Google AdMob 展示广告。</p>
+  <p><strong>广告绝不在回合进行中出现。</strong>每天最多三次，间隔至少四分钟，
+  并且只在你离开已结束的生存局或关闭当日总结时出现。在你玩满二十个回合之前，
+  一次都不会出现。还有一条广告完全自愿，只在你主动选择时才出现：漏掉一天之后，
+  观看它可以保住你的连续记录，而不是失去它。</p>
+  <p>为了投放广告，AdMob 会收到你设备的 IP 地址、一般设备信息，以及在你允许的
+  情况下的广告标识符。在 iOS 上，应用会通过 Apple 的 App Tracking Transparency
+  提示请求该权限。即使你拒绝，仍然会看到广告，只是它们在选择时不使用该标识符，
+  相关性较低。你可以随时在 iOS 的「设置」→「隐私与安全性」→「跟踪」中更改答复。</p>
+  <p>在欧洲经济区、英国和瑞士，应用会在请求任何广告之前展示 Google 的同意表单，
+  你在那里的选择决定广告是否个性化。</p>
+  <p>广告仅限于 Google 评定为适合所有受众的内容。应用中没有任何其他东西会跨其他
+  公司的应用或网站追踪你，你的成绩、连续记录和账号也绝不会与广告商共享。</p>
 
   <h2>数据保存多久</h2>
   <p>成绩与账号记录在你的账号存在期间保留。崩溃报告由 Sentry 保存有限的一段时间后自动删除。</p>

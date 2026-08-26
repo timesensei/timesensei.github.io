@@ -77,7 +77,7 @@
 
   <p class="eyebrow">Time Sensei</p>
   <h1>Datenschutzerklärung</h1>
-  <p class="updated">Zuletzt aktualisiert: 12. August 2026 · <a href="../en/privacy.html">English</a> · <a href="../tr/privacy.html">Türkçe</a> · <a href="../es/privacy.html">Español</a> · <a href="../pt/privacy.html">Português</a> · <a href="../fr/privacy.html">Français</a> · <a href="../it/privacy.html">Italiano</a> · <a href="../ru/privacy.html">Русский</a> · <a href="../id/privacy.html">Bahasa Indonesia</a> · <a href="../ja/privacy.html">日本語</a> · <a href="../ko/privacy.html">한국어</a> · <a href="../zh/privacy.html">中文</a></p>
+  <p class="updated">Zuletzt aktualisiert: 26. August 2026 · <a href="../en/privacy.html">English</a> · <a href="../tr/privacy.html">Türkçe</a> · <a href="../es/privacy.html">Español</a> · <a href="../pt/privacy.html">Português</a> · <a href="../fr/privacy.html">Français</a> · <a href="../it/privacy.html">Italiano</a> · <a href="../ru/privacy.html">Русский</a> · <a href="../id/privacy.html">Bahasa Indonesia</a> · <a href="../ja/privacy.html">日本語</a> · <a href="../ko/privacy.html">한국어</a> · <a href="../zh/privacy.html">中文</a></p>
 
   <p>Time Sensei ist ein Spiel um zeitliche Präzision. Diese Erklärung beschreibt genau, was die App erhebt, warum, und wer es sonst noch sehen kann. Sie ist an dem geschrieben, was die App tatsächlich tut: jeder Punkt unten entspricht echtem Code und einer echten Datenbanktabelle.</p>
 
@@ -89,7 +89,7 @@
     <li>Du kannst spielen, ohne ein Konto anzulegen und ohne uns deinen Namen oder deine E-Mail zu geben.</li>
     <li>Wir erheben deine Punktzahlen, damit dein Verlauf und die Ranglisten funktionieren.</li>
     <li>Wir erheben Absturzberichte, damit die App repariert werden kann, wenn sie kaputtgeht.</li>
-    <li>Es gibt <strong>keine Werbung</strong>, <strong>kein Tracking</strong> über andere Apps oder Websites hinweg, und deine Daten werden niemals verkauft oder an Datenhändler oder Werbetreibende weitergegeben.</li>
+    <li>Time Sensei zeigt <strong>Werbung</strong> über Google AdMob, und sie erscheint niemals während einer Runde. Deine Ergebnisse werden nie verkauft oder an Datenhändler weitergegeben.</li>
     </ul>
   </div>
 
@@ -136,13 +136,34 @@
         <tr><td>Sentry</td><td>Absturz- und Fehlerberichte</td><td>Cloud, EU-Region</td></tr>
         <tr><td>Google</td><td>Mit Google anmelden</td><td>Googles eigene Dienste</td></tr>
         <tr><td>Apple</td><td>Mit Apple anmelden, Push-Zustellung, App-Store-Analysen</td><td>Apples eigene Dienste</td></tr>
+        <tr><td>Google AdMob</td><td>Werbung und, wenn du zustimmst, eine Werbe-ID</td><td>Googles eigene Dienste</td></tr>
       </tbody>
     </table>
   </div>
-  <p>Jeder wird ausschließlich für den Betrieb der App eingesetzt. Keinem werden deine Daten für eigene Werbung oder eigenes Profiling überlassen.</p>
+  <p>Supabase, Sentry, Apple und Google-Anmeldung werden ausschließlich für den Betrieb der App eingesetzt, und keinem von ihnen werden deine Daten für eigene Werbung oder eigenes Profiling überlassen. AdMob ist die Ausnahme, denn Werbung zu zeigen ist sein Zweck. Was es erhält, steht im nächsten Abschnitt.</p>
 
   <h2>Tracking und Werbung</h2>
-  <p>Time Sensei enthält <strong>keine Werbung</strong> und <strong>keine Tracking- oder Analyse-SDKs von Dritten</strong>. Nichts in der App verfolgt dich über Apps oder Websites anderer Unternehmen, und die App fragt auch nicht um Erlaubnis dafür, weil sie es nicht tut.</p>
+  <p>Time Sensei zeigt Werbung über Google AdMob.</p>
+  <p><strong>Werbung erscheint niemals während einer Runde.</strong> Höchstens
+  dreimal am Tag, mit mindestens vier Minuten Abstand, und nur wenn du eine
+  beendete Überleben-Partie verlässt oder deine Tagesübersicht schließt. Vor
+  deiner zwanzigsten Runde gar nicht. Eine weitere Werbung ist völlig freiwillig
+  und erscheint nur, wenn du dich dafür entscheidest: Nach einem verpassten Tag
+  schützt sie deine Serie, statt sie zu verlieren.</p>
+  <p>Um eine Anzeige auszuliefern, erhält AdMob die IP-Adresse deines Geräts,
+  allgemeine Geräteinformationen und eine Werbe-ID, sofern du eine erlaubt hast.
+  Unter iOS fragt die App diese Erlaubnis über Apples App-Tracking-Transparency-
+  Dialog ab. Lehnst du ab, siehst du weiterhin Werbung. Sie wird lediglich ohne
+  diese Kennung ausgewählt und ist weniger relevant. Du kannst deine Antwort
+  jederzeit in den iOS-Einstellungen unter Datenschutz &amp; Sicherheit,
+  Tracking, ändern.</p>
+  <p>Im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der
+  Schweiz zeigt die App Googles Einwilligungsformular, bevor sie eine Anzeige
+  anfordert; deine Wahl dort bestimmt, ob Werbung personalisiert wird.</p>
+  <p>Die Werbung ist auf Inhalte beschränkt, die Google als für alle Altersgruppen
+  geeignet einstuft. Nichts anderes in der App verfolgt dich über Apps oder
+  Websites anderer Unternehmen, und deine Ergebnisse, deine Serie und dein Konto
+  werden niemals an Werbetreibende weitergegeben.</p>
 
   <h2>Wie lange Daten aufbewahrt werden</h2>
   <p>Punktzahlen und Kontodaten werden aufbewahrt, solange dein Konto besteht. Absturzberichte werden von Sentry für einen begrenzten Zeitraum aufbewahrt und danach automatisch gelöscht.</p>
