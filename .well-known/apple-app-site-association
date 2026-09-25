@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "HNYH3B28X6.com.timesensei.app"
+        ],
+        "components": [
+          {
+            "/": "/lobby/*",
+            "comment": "Lobby invites. Nothing else on the site opens the app."
+          }
+        ]
+      }
+    ]
+  }
+}
