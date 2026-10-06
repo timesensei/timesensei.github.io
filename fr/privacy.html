@@ -76,7 +76,7 @@
 
   <p class="eyebrow">Time Sensei</p>
   <h1>Politique de confidentialité</h1>
-  <p class="updated">Dernière mise à jour : 26 août 2026 · <a href="../en/privacy.html">English</a> · <a href="../tr/privacy.html">Türkçe</a> · <a href="../es/privacy.html">Español</a> · <a href="../pt/privacy.html">Português</a> · <a href="../de/privacy.html">Deutsch</a> · <a href="../it/privacy.html">Italiano</a> · <a href="../ru/privacy.html">Русский</a> · <a href="../id/privacy.html">Bahasa Indonesia</a> · <a href="../ja/privacy.html">日本語</a> · <a href="../ko/privacy.html">한국어</a> · <a href="../zh/privacy.html">中文</a></p>
+  <p class="updated">Dernière mise à jour : 6 octobre 2026 · <a href="../en/privacy.html">English</a> · <a href="../tr/privacy.html">Türkçe</a> · <a href="../es/privacy.html">Español</a> · <a href="../pt/privacy.html">Português</a> · <a href="../de/privacy.html">Deutsch</a> · <a href="../it/privacy.html">Italiano</a> · <a href="../ru/privacy.html">Русский</a> · <a href="../id/privacy.html">Bahasa Indonesia</a> · <a href="../ja/privacy.html">日本語</a> · <a href="../ko/privacy.html">한국어</a> · <a href="../zh/privacy.html">中文</a></p>
 
   <p>Time Sensei est un jeu de précision temporelle. Cette politique décrit exactement ce que l'application collecte, pourquoi, et qui d'autre peut le voir. Elle est écrite d'après ce que l'application fait réellement : chaque point ci-dessous correspond à du code réel et à une vraie table de base de données.</p>
 
@@ -88,6 +88,7 @@
     <li>Vous pouvez jouer sans créer de compte ni nous donner votre nom ou votre e-mail.</li>
     <li>Nous collectons vos scores, pour que votre historique et les classements fonctionnent.</li>
     <li>Nous collectons les rapports de plantage, pour que l'application puisse être réparée quand elle casse.</li>
+    <li>Nous enregistrons quelques moments d'utilisation, comme l'ouverture de l'app ou la fin de votre première manche, pour voir où les nouveaux joueurs s'arrêtent.</li>
     <li>Time Sensei affiche des <strong>publicités</strong> via Google AdMob, et elles n'apparaissent jamais pendant une manche. Vos scores ne sont jamais vendus ni cédés à des courtiers en données.</li>
     </ul>
   </div>
@@ -101,6 +102,10 @@
   <h3>Vos scores</h3>
   <p>Chaque manche terminée enregistre le mode de jeu, le score et l'écart par rapport à la cible, avec un horodatage. Les parties de Survie enregistrent en plus le nombre de manches survécues et votre erreur moyenne.</p>
   <p><strong>&rarr;</strong> les classements et votre propre historique de performance.</p>
+
+  <h3>Votre utilisation de l'app</h3>
+  <p>Quelques moments sont enregistrés, avec un horodatage et votre compte anonyme : l'ouverture de l'app (au plus une fois par jour), les choix du premier lancement, vos 1re, 2e, 3e, 5e, 10e manches et les suivantes, la fin de la session quotidienne, un appui sur partager, et la création d'un salon ou l'arrivée dans un salon. Chacun contient la version de l'app et un ou deux détails de ce moment, comme le mode de jeu. Rien sur votre position, vos contacts ou vos autres apps.</p>
+  <p><strong>&rarr;</strong> pour voir où les nouveaux joueurs s'arrêtent et améliorer le jeu à cet endroit précis. Ces données ne servent pas à la publicité, ne sont pas partagées et sont supprimées avec votre compte.</p>
 
   <h3>Rapports de plantage et d'erreur</h3>
   <p>Quand quelque chose se passe mal, l'application envoie un rapport de diagnostic contenant l'erreur, une trace de pile et un contexte technique de base comme le modèle de votre appareil et la version du système. Ils sont traités par Sentry.</p>
@@ -131,7 +136,7 @@
         <tr><th>Service</th><th>Ce dont il s'occupe</th><th>Où</th></tr>
       </thead>
       <tbody>
-        <tr><td>Supabase</td><td>Compte, scores, jeton de notification</td><td>Base de données dans le cloud</td></tr>
+        <tr><td>Supabase</td><td>Compte, scores, événements d'utilisation, jeton de notification</td><td>Base de données dans le cloud</td></tr>
         <tr><td>Sentry</td><td>Rapports de plantage et d'erreur</td><td>Cloud, région UE</td></tr>
         <tr><td>Google</td><td>Connexion avec Google</td><td>Services propres de Google</td></tr>
         <tr><td>Apple</td><td>Connexion avec Apple, livraison des push, statistiques de l'App Store</td><td>Services propres d'Apple</td></tr>
@@ -167,7 +172,7 @@
   votre compte ne sont jamais partagés avec des annonceurs.</p>
 
   <h2>Combien de temps les données sont conservées</h2>
-  <p>Les scores et les enregistrements de compte sont conservés tant que votre compte existe. Les rapports de plantage sont conservés pendant une durée limitée par Sentry puis supprimés automatiquement.</p>
+  <p>Les scores et les enregistrements de compte sont conservés tant que votre compte existe. Les rapports de plantage sont conservés pendant une durée limitée par Sentry puis supprimés automatiquement. Les événements d'utilisation sont conservés de la même façon et supprimés avec le compte.</p>
 
   <h2>Vos choix</h2>
   <ul>

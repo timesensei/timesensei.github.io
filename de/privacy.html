@@ -77,7 +77,7 @@
 
   <p class="eyebrow">Time Sensei</p>
   <h1>Datenschutzerklärung</h1>
-  <p class="updated">Zuletzt aktualisiert: 26. August 2026 · <a href="../en/privacy.html">English</a> · <a href="../tr/privacy.html">Türkçe</a> · <a href="../es/privacy.html">Español</a> · <a href="../pt/privacy.html">Português</a> · <a href="../fr/privacy.html">Français</a> · <a href="../it/privacy.html">Italiano</a> · <a href="../ru/privacy.html">Русский</a> · <a href="../id/privacy.html">Bahasa Indonesia</a> · <a href="../ja/privacy.html">日本語</a> · <a href="../ko/privacy.html">한국어</a> · <a href="../zh/privacy.html">中文</a></p>
+  <p class="updated">Zuletzt aktualisiert: 6. Oktober 2026 · <a href="../en/privacy.html">English</a> · <a href="../tr/privacy.html">Türkçe</a> · <a href="../es/privacy.html">Español</a> · <a href="../pt/privacy.html">Português</a> · <a href="../fr/privacy.html">Français</a> · <a href="../it/privacy.html">Italiano</a> · <a href="../ru/privacy.html">Русский</a> · <a href="../id/privacy.html">Bahasa Indonesia</a> · <a href="../ja/privacy.html">日本語</a> · <a href="../ko/privacy.html">한국어</a> · <a href="../zh/privacy.html">中文</a></p>
 
   <p>Time Sensei ist ein Spiel um zeitliche Präzision. Diese Erklärung beschreibt genau, was die App erhebt, warum, und wer es sonst noch sehen kann. Sie ist an dem geschrieben, was die App tatsächlich tut: jeder Punkt unten entspricht echtem Code und einer echten Datenbanktabelle.</p>
 
@@ -89,6 +89,7 @@
     <li>Du kannst spielen, ohne ein Konto anzulegen und ohne uns deinen Namen oder deine E-Mail zu geben.</li>
     <li>Wir erheben deine Punktzahlen, damit dein Verlauf und die Ranglisten funktionieren.</li>
     <li>Wir erheben Absturzberichte, damit die App repariert werden kann, wenn sie kaputtgeht.</li>
+    <li>Wir speichern einige Nutzungsmomente, etwa das Öffnen der App oder das Ende deiner ersten Runde, um zu sehen, wo neue Spieler aufhören.</li>
     <li>Time Sensei zeigt <strong>Werbung</strong> über Google AdMob, und sie erscheint niemals während einer Runde. Deine Ergebnisse werden nie verkauft oder an Datenhändler weitergegeben.</li>
     </ul>
   </div>
@@ -102,6 +103,10 @@
   <h3>Deine Punktzahlen</h3>
   <p>Jede abgeschlossene Runde speichert den Spielmodus, die Punktzahl und wie weit du vom Ziel entfernt warst, mit Zeitstempel. Überleben-Läufe speichern zusätzlich, wie viele Runden du überstanden hast, und deinen durchschnittlichen Fehler.</p>
   <p><strong>&rarr;</strong> Ranglisten und dein eigener Leistungsverlauf.</p>
+
+  <h3>Wie du die App nutzt</h3>
+  <p>Einige Momente werden mit Zeitstempel und deinem anonymen Konto gespeichert: das Öffnen der App (höchstens einmal am Tag), die Auswahl beim ersten Start, das Erreichen deiner 1., 2., 3., 5., 10. und weiterer Runden, das Ende der täglichen Sitzung, ein Tippen auf Teilen sowie das Erstellen einer Lobby oder der Beitritt zu einer. Jeder Eintrag enthält die App-Version und ein, zwei Details dieses Moments, etwa den Spielmodus. Nichts über deinen Standort, deine Kontakte oder andere Apps.</p>
+  <p><strong>&rarr;</strong> um zu sehen, wo neue Spieler aufhören, und das Spiel genau dort zu verbessern. Diese Einträge werden nicht für Werbung genutzt, nicht weitergegeben und mit deinem Konto gelöscht.</p>
 
   <h3>Absturz- und Fehlerberichte</h3>
   <p>Wenn etwas schiefgeht, sendet die App einen Diagnosebericht mit dem Fehler, einem Stack-Trace und grundlegendem technischem Kontext wie deinem Gerätemodell und der Betriebssystemversion. Diese werden von Sentry verarbeitet.</p>
@@ -132,7 +137,7 @@
         <tr><th>Dienst</th><th>Wofür zuständig</th><th>Wo</th></tr>
       </thead>
       <tbody>
-        <tr><td>Supabase</td><td>Konto, Punktzahlen, Benachrichtigungs-Token</td><td>Cloud-Datenbank</td></tr>
+        <tr><td>Supabase</td><td>Konto, Punktzahlen, Nutzungsereignisse, Benachrichtigungs-Token</td><td>Cloud-Datenbank</td></tr>
         <tr><td>Sentry</td><td>Absturz- und Fehlerberichte</td><td>Cloud, EU-Region</td></tr>
         <tr><td>Google</td><td>Mit Google anmelden</td><td>Googles eigene Dienste</td></tr>
         <tr><td>Apple</td><td>Mit Apple anmelden, Push-Zustellung, App-Store-Analysen</td><td>Apples eigene Dienste</td></tr>
@@ -166,7 +171,7 @@
   werden niemals an Werbetreibende weitergegeben.</p>
 
   <h2>Wie lange Daten aufbewahrt werden</h2>
-  <p>Punktzahlen und Kontodaten werden aufbewahrt, solange dein Konto besteht. Absturzberichte werden von Sentry für einen begrenzten Zeitraum aufbewahrt und danach automatisch gelöscht.</p>
+  <p>Punktzahlen und Kontodaten werden aufbewahrt, solange dein Konto besteht. Absturzberichte werden von Sentry für einen begrenzten Zeitraum aufbewahrt und danach automatisch gelöscht. Nutzungsereignisse werden genauso aufbewahrt und mit dem Konto gelöscht.</p>
 
   <h2>Deine Möglichkeiten</h2>
   <ul>
