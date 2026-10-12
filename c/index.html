@@ -139,15 +139,18 @@
   open.href = 'timesensei:///?target=' + target;
   if (inApp) document.getElementById('inapp').hidden = false;
   // The app opening hides this page. Still on screen a moment later means it
-  // didn't: say what to do instead of leaving a dead button.
+  // didn't, most likely because it isn't installed: go to the App Store, and
+  // leave the retry note for when they come back here after installing.
   open.addEventListener('click', function () {
     var left = false;
     function gone() { left = true; }
     document.addEventListener('visibilitychange', function () { if (document.hidden) gone(); });
     window.addEventListener('pagehide', gone);
     setTimeout(function () {
-      if (!left && !document.hidden && !inApp) document.getElementById('retry').hidden = false;
-    }, 2500);
+      if (left || document.hidden) return;
+      if (!inApp) document.getElementById('retry').hidden = false;
+      location.href = document.getElementById('store').href;
+    }, 1500);
   });
 })();
 </script>
