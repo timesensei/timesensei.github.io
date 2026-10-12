@@ -8,7 +8,11 @@
         "components": [
           {
             "/": "/lobby/*",
-            "comment": "Lobby invites. Nothing else on the site opens the app."
+            "comment": "Lobby invites."
+          },
+          {
+            "/": "/c/*",
+            "comment": "Daily challenge links (app/c.tsx). Nothing else on the site opens the app."
           }
         ]
       }
